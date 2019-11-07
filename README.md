@@ -1,2 +1,2 @@
 # JavaScript practice
-## repository to add practice problems
+A repository to work on practice problems
