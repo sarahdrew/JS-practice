@@ -15,7 +15,13 @@ function countOccurence(string, letter) {
 }
 
 
+//example for Elliot, sumFunction:
+const sumFunction = function (a, b) {
+    let sum = a + b;
 
+    //we will want to return sum
+    return sum;
+}
 
 
 
