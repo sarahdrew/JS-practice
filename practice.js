@@ -30,3 +30,16 @@ const sumFunction = function (a, b) {
 //you need tto implement the <ContnetSwapper value ={} /> component.
 // Requirements:
 // Every time the parent component changes the “value” field on the ContentSwapper component, the new content will we replaced with the old content using the swap animation described above.
+
+
+//Write a function that takes an integer minutes and converts it to seconds.
+//example:
+//converts(5) --> 300
+//converts(3) --> 180
+
+function converts(number) {
+
+    let seconds = 0;
+    let seconds = number * 60;
+    return seconds;
+}
