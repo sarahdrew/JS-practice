@@ -30,3 +30,28 @@ const sumFunction = function (a, b) {
 //you need tto implement the <ContnetSwapper value ={} /> component.
 // Requirements:
 // Every time the parent component changes the “value” field on the ContentSwapper component, the new content will we replaced with the old content using the swap animation described above.
+
+
+//Write a function that takes an integer minutes and converts it to seconds.
+//example:
+//converts(5) --> 300
+//converts(3) --> 180
+
+function converts(number) {
+
+    let seconds = 0;
+    let seconds = number * 60;
+    return seconds;
+}
+
+//From leetcode:
+//Given a 32-bit signed integer, reverse digits of an integer.
+
+// Example 1:
+
+// Input: 123
+// Output: 321
+// Note:
+// Assume we are dealing with an environment which could only store integers within the 32-bit 
+// signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your 
+//function returns 0 when the reversed integer overflows.
